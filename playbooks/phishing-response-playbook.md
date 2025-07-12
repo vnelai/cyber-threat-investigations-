@@ -21,7 +21,7 @@ It’s designed for SOC analysts, IR teams, or personal use during threat invest
 | Task | Tool/Notes |
 |------|------------|
 | Check subject line and sender address | Look for spoofing, misspellings, urgency |
-| View email headers | Use [MXToolbox](https://mxtoolbox.com/EmailHeaders.aspx) or parse manually |
+| View email headers | Use [MXToolbox](https://mxtoolbox.com/EmailHeaders.aspx) for quick triage, then parse manually for deeper analysis |
 | Extract links and attachments | Do not click — extract safely |
 
 ---
