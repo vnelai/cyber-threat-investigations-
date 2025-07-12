@@ -22,8 +22,7 @@ It’s designed for SOC analysts, IR teams, or personal use during threat invest
 |------|------------|
 | Check subject line and sender address | Look for spoofing, misspellings, urgency |
 | View email headers | Use [MXToolbox](https://mxtoolbox.com/EmailHeaders.aspx) for quick triage, then parse manually for deeper analysis |
-| Extract links and attachments | Do not click — extract safely |
-
+| Extract links and attachments | Do not click — extract safely | See below for how to do this 👇 |
 ---
 
 ### 2️⃣ IOC Extraction
@@ -34,6 +33,8 @@ It’s designed for SOC analysts, IR teams, or personal use during threat invest
 | IP addresses | From `Received:` fields in email headers |
 | File hashes | Use SHA256 hash generator (if attachments) |
 | Email addresses | Sender, Reply-To, Return-Path |
+| Attachment name| May hint at social engineering |
+| URLs	| In the body (if any visible or behind images) |
 
 ---
 
