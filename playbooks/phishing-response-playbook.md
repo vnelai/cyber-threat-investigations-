@@ -48,7 +48,7 @@ It’s designed for SOC analysts, IR teams, or personal use during threat invest
 | Email | [EmailRep.io](https://emailrep.io), [HaveIBeenPwned](https://haveibeenpwned.com) |
 | WHOIS | [who.is](https://who.is), [DomainTools](https://whois.domaintools.com) |
 | Hashes | [VirusTotal], [Hybrid Analysis], [JoeSandbox] |
-| Phone# | [Google Search], [That’sThem](https://thatsthem.com/), [Sync.ME](https://sync.me/), [ScamNumbers.info](https://scamnumbers.info/), [Robokiller Lookup](https://lookup.robokiller.com/), [OSINT Combine Phone Lookup List](https://www.osintcombine.com/phone-number-osint) |
+| Phone# | [Google Search], [That’sThem](https://thatsthem.com/),  [ScamNumbers.info](https://scamnumbers.info/), [Robokiller Lookup](https://lookup.robokiller.com/)
 
 ---
 
