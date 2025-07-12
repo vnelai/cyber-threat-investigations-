@@ -35,6 +35,7 @@ It’s designed for SOC analysts, IR teams, or personal use during threat invest
 | Email addresses | Sender, Reply-To, Return-Path |
 | Attachment name| May hint at social engineering |
 | URLs	| In the body (if any visible or behind images) |
+| Phone # | ☎️ Phone number  |
 
 ---
 
@@ -47,6 +48,7 @@ It’s designed for SOC analysts, IR teams, or personal use during threat invest
 | Email | [EmailRep.io](https://emailrep.io), [HaveIBeenPwned](https://haveibeenpwned.com) |
 | WHOIS | [who.is](https://who.is), [DomainTools](https://whois.domaintools.com) |
 | Hashes | [VirusTotal], [Hybrid Analysis], [JoeSandbox] |
+| Phone# | [Google Search], [That’sThem](https://thatsthem.com/), [TrueCaller](https://www.truecaller.com/), [Sync.ME](https://sync.me/), [ScamNumbers.info](https://scamnumbers.info/), [Robokiller Lookup](https://lookup.robokiller.com/), [OSINT Combine Phone Lookup List](https://www.osintcombine.com/phone-number-osint) |
 
 ---
 
