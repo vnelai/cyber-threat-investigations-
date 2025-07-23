@@ -27,16 +27,29 @@ It’s designed for SOC analysts, IR teams, or personal use during threat invest
 
 ### 2️⃣ IOC Extraction
 
-| Indicator | How to Extract |
-|-----------|----------------|
-| URLs/domains | Hover over links or inspect HTML source |
-| IP addresses | From `Received:` fields in email headers |
-| File hashes | Use SHA256 hash generator (if attachments) |
-| Email addresses | Sender, Reply-To, Return-Path |
-| Attachment name| May hint at social engineering |
-| URLs	| In the body (if any visible or behind images) |
-| Phone # | ☎️ Phone number  |
+#### Manual
 
+| Indicator       | How to Extract                            |
+|------------------|--------------------------------------------|
+| URLs/domains    | Hover over links or inspect HTML source    |
+| IP addresses    | From `Received:` fields in email headers   |
+| File hashes     | Use SHA256 hash generator (if attachments) |
+| Email addresses | Sender, Reply-To, Return-Path              |
+| Attachment name | May hint at social engineering             |
+| Phone #         | ☎️ Found in message body or image content   |
+
+#### Automation
+
+You can use the following terminal commands to quickly extract relevant data from email headers:
+
+```bash
+# Metadata extraction
+grep -Ei 'from:|return-path:|received:|subject:|date:|spf|dkim|dmarc' email01_header_analysis.txt
+
+# IOC extraction
+grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}|[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}|[0-9]{3}[-. ]?[0-9]{3}[-. ]?[0-9]{4}' email01_header_analysis.txt
+
+```
 ---
 
 ### 3️⃣ IOC Enrichment
