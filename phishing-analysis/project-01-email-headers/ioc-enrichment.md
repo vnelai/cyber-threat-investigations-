@@ -21,6 +21,11 @@ This file documents the enrichment results for the IP address extracted from the
 | **GreyNoise** |  
 • No mass scanning observed in the past 24 hours.  
 • ⚠️ Suggests possible **targeted delivery** vs. random spam. |
+| **MXToolbox** |  
+• Reverse DNS lookup returned PTR for `57.103.77.23`:  
+  → `npq-east2-cluster1-host4-snip4-10.eps.apple.com`  
+• No blacklists flagged  
+• TTL: 60 minutes |
 
 ---
 
