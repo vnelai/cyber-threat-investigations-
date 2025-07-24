@@ -1,0 +1,21 @@
+X-Ymailisg: fXct8nMWLDuXJczDxIa9Wxed_3ty13x1IIL.2c7rOWPDNm5e Q2q_xEWxORNPzvaXUJPsnLCm5Hi0a_vUQBryzx99CoN1HKpol9jPxVm4jC6e _aC19VMEBKCnBKC19rsMd6Bcle2eweXsHEhitV_laRnxP3eqqOPojarXL_MM qfkIqq3LLV5PM_86Kp.gzk5iSA8XCPO4AcTsFZ_IzEyTLOcBm7Xi8mVLnQ2M mZN787MszMqJjJ9SjchJE5SbAx_1Wd2UdcXb3HsbpbpwuXYDhJtVsuxtlLE6 D35GcpPJ8dPH8NEtWI3VXnaBYVxbhpfJRxgc0O890bDwgPI628W9DUqPEaNf tTWTPCTv_qet039hfssEB06NFtjXGBr4S7jz1vMb0VbK99gp_O58.3CJ.EIc TQovFm1fkRk2XXsoBE5zCzDfA9q8B0gyuEmmiNGquS7rn812acvPNJk.SgTF dWphiQOtikM4guZGiy.qCRBYfx35ipbzKwfRP8jzM7hLUyQNtXuULnKTX4FO ChbW1XnH0TuykfoHGV47zliP_nOOGYfY72q8Pon0ltKGHTZ6ocyWVL9AvSdl WD5.xVCMNsUY.DHNRJurIY8JnQCDQJZXCgWv9m1F7s7X4CplirfY2kgDas91 kTURHEf_dYTFIV05aYe.DTSDc.KWFUc5WizXgdRPdCD1jAUq73i3wS8NKx_A XAdHNttWAf0HydOx0CzfZXS1Hl3KdI6jQKlITkRevNkOQmvIjI_4w4pQXaQ2 8aKl6Na3xG2o5rgFBR0TyMv3fY_8LB.dqHouZChzZ_tN6NOCeJv_ckdzHYJ4 X9W2k7GD9PLtV5u0yK.4ttn5C7S3ns1SmARfHXwCjVwPblk6xgzxiuWmAGPy uQTlr3ASV0NU93yx8Bb020XN4iz66cEc2vpHWAymH4Cgic2gH_lYRef_h.D. CKYv4m.Mnstd96V6nJjWniLXwFqOaJw4zy.SckIZskaHYWfIPzha4c9B0R8F 1C3SDlJ9wDY_3J7XvC_Jz6J7qeNnaDGF9oR0MbYFk9GPypWaJy9h4Ya0Y71z 9lDNL688ap0RZtUoKBSnKd_NFYiMFK4MSv2xG1ixbWtGeZJYIOJ8rN4BPTlO Ow.QgCKi2zvvYbgOqR7LA6LxHxNXdLJVDYl0WOGLrWXrL3l6CR31aVxVm0Yi MlTG30YhRzOaSRU6jwu0JzDceNtgx8_61BH2Tj2r6iCzZK.EWLJNvnU4BK4g .ho5TSPuE0nXBlQL3Y6xTOcb8lV4dnWI7Q--
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjUwNjMwMDExNyBTYWx0ZWRfX1ZD8mSeJJTP/ LFx/wCxhtAYrdVK6PPNkQa2eb/uQL7I6ZVuNhqZLdyHuZOUaxn3N5FfWsFTBMEesyRqRV4ZVew+ C2pGHm5p0e68HtxMiJr0CwkfMk6Vo+EtsqV37NVFRW531xhwsL2lnLWqwhc6aroJm1sOgq/3Az7 KPwigjAYCACngmtS7n/I31l8/h6aJwnrw+4V4pEE6dg8aXFd0k+ThgndSAxUl/jl4F0HrAXMfee 8AykuH8On18TCdR+v4CTHv/Wfi4LO96zRTc9HeLx2Dv/IQPDW4Nn1hih70/94Ttu7l/9Wfjf0=
+Return-Path: <kumar391715vz1@icloud.com>
+X-Originating-Ip: [57.103.77.23]
+X-Apparently-To: myemail@gmail.com; Mon, 30 Jun 2025 14:14:33 +0000
+X-Proofpoint-Virus-Version: 
+Mime-Version: 1.0
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com; dkim=pass header.i=@icloud.com header.s=1a1hai arc_overridden_status=NOT_OVERRIDDEN; spf=pass smtp.mailfrom=icloud.com arc_overridden_status=NOT_OVERRIDDEN; dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com arc_overridden_status=NOT_OVERRIDDEN;
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 bulkscore=0 adultscore=0 suspectscore=0 mlxlogscore=551 clxscore=1011 phishscore=0 malwarescore=0 spamscore=0 mlxscore=0 classifier=spam adjust=0 reason=mlx scancount=1 engine=8.22.0-2506060001 definitions=main-2506300117
+Content-Length: 147028
+X-Proofpoint-Orig-Guid: s3c6VBvZJM7l-9fkJSy1wQyhb6qLZyqT
+<3602bdbb-94c4-490b-ba6d-2c91a9598fcd@me.com>
+X-Mailer: iCloud MailClientcurrent MailServer2502B13.7c5914c7dad3
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com; s=1a1hai; bh=CQzXP4VqWVCbeu/fGIXzpUiETvNLrNWJ2NtRrbNOTT4=; h=To:From:Subject:Date:Message-id:Content-Type:MIME-Version:x-icloud-hme; b=E2nMb7W1Ua8tD9jV71Kww77e0Vb7VzZ/fv8wg2f3tiza/t9gTcgiDVfto+5fUybD6 1k4v/ppgDK6j+kPAfDy2p+xwgu7a+QQtcTS29z6LKBE+v1e1Jrumvy6UZMXO1rCdSS DFeAs9J6d/x9eNnqWE/bXhKN+XHzLNTsji4xVOnZ1SuaGmlToN8IqtQzwdwKOjNagR LaKZx2in76PM06y6RuWFQzKLSTLlcRa76V0DR02P447H+Dn1uhW+Rl4/Ui2TaUUqeJ eudrxqzZKizYo4YmXKh3x8cNBxh9i7nabvAj6kuyX17uqNuJd8BAsHVGWHpOgX+MAq Yv/IdhFMSETJQ==
+X-Proofpoint-Guid: s3c6VBvZJM7l-9fkJSy1wQyhb6qLZyqT
+Content-Type: multipart/alternative; boundary=Apple-Webmail-42--963a1c89-12ec-4f90-a98a-f5a1193d95ac
+Received-Spf: pass (domain of icloud.com designates 57.103.77.23 as permitted sender)
+Received: from 127.0.0.1 by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id atlas--production-gq1-bb6bf654-m27hj.gq1.yahoo.com with HTTP; Mon, 30 Jun 2025 14:14:33 +0000
+Received: from 57.103.77.23 (EHLO outbound.st.icloud.com) by 10.206.129.11 with SMTPs (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256); Mon, 30 Jun 2025 14:14:33 +0000
+Received: from outbound.st.icloud.com (unknown [127.0.0.2]) by outbound.st.icloud.com (Postfix) with ESMTPS id 78C321800B7E; Mon, 30 Jun 2025 14:14:28 +0000 (UTC)
+Received: from p00-mailws2-9c54c7dcb-99nj9 (st-asmtpout-k8s.p00.prod.me.com [10.76.196.12]) by outbound.st.icloud.com (Postfix) with ESMTPSA id 706861802DFF; Mon, 30 Jun 2025 14:14:24 +0000 (UTC)
