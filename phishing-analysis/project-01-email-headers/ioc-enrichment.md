@@ -26,7 +26,7 @@ This file documents the enrichment results for the IP address extracted from the
 - TTL: 60 minutes
 
 **Image:**  
-![MXToolbox Results](./screenshots/ioc-enrichment/mxtoolbox-header.png)
+<img src="./screenshots/ioc-enrichment/mxtoolbox-header.png" alt="MXToolbox Results" width="500"/>
 
 ---
 
