@@ -5,8 +5,8 @@ This file contains all Indicators of Compromise (IOCs) extracted from the email 
 ---
 
 ## 📄 Source
-- Header file: `email01_header_analysis.txt`
-- Extraction method: Manual review + terminal commands (see `playbooks/phishing-response-playbook.md`)
+- Header file: [Raw Header File](./email01_header.txt)  
+- Extraction method: Manual review + terminal commands (see [IOC Extraction Commands](../../playbooks/phishing-response-playbook.md)
 
 ---
 
