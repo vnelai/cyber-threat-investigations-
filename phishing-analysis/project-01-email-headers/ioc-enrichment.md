@@ -104,7 +104,7 @@ This number appeared inside the **phishing image attachment** and may be part of
 ### 🖼️ Screenshot
 
 Robokiller Lookup Results:  
-![Robokiller Lookup](./screenshots/robokiller-phone-lookup.png)
+![Robokiller Lookup](./screenshots/ioc-enrichment/robokiller-phone-lookup.png)
 
 ---
 
