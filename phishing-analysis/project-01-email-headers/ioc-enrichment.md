@@ -8,9 +8,10 @@ This file documents the enrichment results for the IP address extracted from the
 
 ### ✅ Summary Table
 
-| Source        | Result |
-|---------------|--------|
-| **AbuseIPDB** | ❌ Not found in database. No known abuse reports. |
+| Source        |
+|---------------|
+| **AbuseIPDB** | 
+• ❌ Not found in database. No known abuse reports. 
 | **IPinfo.io** |  
 • ISP: Apple Inc.  
 • Hostname: `npq-east2-cluster1-host4-snip4-10.eps.apple.com`  
