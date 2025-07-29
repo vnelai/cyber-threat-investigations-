@@ -38,7 +38,7 @@ This file documents the enrichment results for the IP address extracted from the
 - No reports of abuse
 
 **Image:**  
-![abuseipdb Results](./screenshots/ioc-enrichment/abuseipdb-ip-ioc.png)
+<img src="./screenshots/ioc-enrichment/abuseipdb-ip-ioc.png" alt="abuseipdb Results]" width="500"/>
 
 ---
 
@@ -51,8 +51,9 @@ This file documents the enrichment results for the IP address extracted from the
 - Privacy: True (Apple masks actual sender)
 
 **Image:**  
-![IPinfo.io Results](./screenshots/ioc-enrichment/1-ipinfo-ip-ioc.png)
-![IPinfo.io Results](./screenshots/ioc-enrichment/2-ipinfo-ip-ioc.png)
+<img src="./screenshots/ioc-enrichment/1-ipinfo-ip-ioc.png" alt="IPinfo.io Results]" width="500"/>
+<img src="./screenshots/ioc-enrichment/2-ipinfo-ip-ioc.png" alt="IPinfo.io Results]" width="500"/>
+
 
 ---
 
@@ -62,7 +63,7 @@ This file documents the enrichment results for the IP address extracted from the
 - Likely a **targeted message** to this recipient
 
 **Image:**  
-![greynoise Results](./screenshots/ioc-enrichment/greynoise-ip-ioc.png)
+<img src="./screenshots/ioc-enrichment/greynoise-ip-ioc.png" alt="greynoise Results]" width="500"/>
 
 ---
 
@@ -104,7 +105,7 @@ This number appeared inside the **phishing image attachment** and may be part of
 ### 🖼️ Screenshot
 
 Robokiller Lookup Results:  
-![Robokiller Lookup](./screenshots/ioc-enrichment/robokiller-phone-lookup.png)
+<img src="./screenshots/ioc-enrichment/robokiller-phone-lookup.png" alt="Robokiller Lookup]" width="500"/>
 
 ---
 
