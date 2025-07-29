@@ -8,39 +8,76 @@ This file documents the enrichment results for the IP address extracted from the
 
 ### ✅ Summary Table
 
-| Source        |
-|---------------|
-| **AbuseIPDB** | 
-• ❌ Not found in database. No known abuse reports. 
-| **IPinfo.io** |  
-• ISP: Apple Inc.  
-• Hostname: `npq-east2-cluster1-host4-snip4-10.eps.apple.com`  
-• Geolocation: Maiden, North Carolina, USA  
-• ASN: AS714 (Apple)  
-• Privacy: `true` → Apple masks real sender IP  
-• Abuse Contact: `abuse@apple.com` |
-| **GreyNoise** |  
-• No mass scanning observed in the past 24 hours.  
-• ⚠️ Suggests possible **targeted delivery** vs. random spam. |
-| **MXToolbox** |  
-• Reverse DNS lookup returned PTR for `57.103.77.23`:  
-  → `npq-east2-cluster1-host4-snip4-10.eps.apple.com`  
-• No blacklists flagged  
-• TTL: 60 minutes |
+| Source        | Key Findings |
+|---------------|--------------|
+| **AbuseIPDB** | ❌ Not found in database. No abuse reports for this IP. |
+| **IPinfo.io** | ✅ IP belongs to Apple Inc. Hostname: `npq-east2-cluster1-host4-snip4-10.eps.apple.com`. Geolocated in Maiden, NC. Privacy: `true` (sender masked). |
+| **GreyNoise** | ⚠️ Not scanning internet recently → may indicate **targeted** delivery. |
+| **MXToolbox** | ✅ Reverse DNS lookup shows Apple hostname. No blacklists triggered. TTL: 60 min. |
+
+---
+
+## 🖼️ Enrichment Screenshots
+
+### 📸 MXToolbox Results
+
+- Reverse DNS: `npq-east2-cluster1-host4-snip4-10.eps.apple.com`
+- No blacklists detected  
+- TTL: 60 minutes
+
+**Image:**  
+![MXToolbox Results](./screenshots/ioc-enrichment/mxtoolbox-header.png)
+
+---
+
+### 📸 AbuseIPDB
+
+- IP: `57.103.77.23`
+- ISP: Apple Inc.
+- Status: Not listed  
+- No reports of abuse
+
+**Image:**  
+![abuseipdb Results](./screenshots/ioc-enrichment/abuseipdb-ip-ioc.png)
+
+---
+
+### 📸 IPinfo.io
+
+- ASN: AS714 — Apple Inc.
+- Hostname: `npq-east2-cluster1-host4-snip4-10.eps.apple.com`
+- Location: Maiden, NC, USA
+- Abuse Contact: `abuse@apple.com`
+- Privacy: True (Apple masks actual sender)
+
+**Image:**  
+![IPinfo.io Results](./screenshots/ioc-enrichment/1-ipinfo-ip-ioc.png)
+![IPinfo.io Results](./screenshots/ioc-enrichment/2-ipinfo-ip-ioc.png)
+
+---
+
+### 📸 GreyNoise
+
+- No recent scanning activity
+- Likely a **targeted message** to this recipient
+
+**Image:**  
+![greynoise Results](./screenshots/ioc-enrichment/greynoise-ip-ioc.png)
 
 ---
 
 ## 🧠 Interpretation
 
-- This IP is part of **Apple’s iCloud Mail infrastructure**.
-- The phishing email was **not spoofed** — it came from a legitimate iCloud address, either attacker-controlled or compromised.
-- This tactic helps attackers **bypass SPF/DKIM/DMARC** checks and increase trust.
-- **Conclusion:** The sender hid behind trusted Apple mail servers. The infrastructure itself is legitimate — the abuse comes from account misuse, not the IP.
+- This IP belongs to **Apple’s iCloud Mail infrastructure**.
+- The email was **not spoofed** — the attacker used a real iCloud account.
+- This tactic allows the attacker to **pass SPF, DKIM, and DMARC** checks, gaining legitimacy.
+- **Abuse** is tied to the account behavior, not the IP itself.
 
 ---
 
 ## 💡 Tactic Observed
 
-**Phishing tactic:** Use a real email provider (like iCloud or Gmail) so the message passes authentication and looks trustworthy.
+**Phishing method:**  
+Attackers are increasingly using real email providers (e.g., iCloud, Gmail) to evade filters and build trust. Messages sent from these providers often **pass all security checks**, making them harder to detect without content or behavioral analysis.
 
 ---
