@@ -15,8 +15,8 @@ This file contains all Indicators of Compromise (IOCs) extracted from the email 
 | Type          | Value                          | Notes                                                                 |
 |---------------|--------------------------------|-----------------------------------------------------------------------|
 | IP Address    | 57.103.77.23                   | Origin IP from `Received:` header – belongs to Apple infrastructure  |
-| Email Address | kumar391715vz1@icloud.com      | Real iCloud sender – not spoofed                                      |                                |
-| Phone Number  | +1 (801) 614-7113              | Appeared inside image attachment                                      |
+| Email Address | `kumar391715vz1@icloud.com`      | Real iCloud sender – not spoofed                                      |                                |
+| Phone Number  | +1 (801) 614-7113              | Appeared inside image attachment                                        |
 | Attachment    | phishing-email-01-screenshot.png | Screenshot of a fake email body — contains social engineering lure    |
 
 ---
