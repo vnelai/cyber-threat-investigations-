@@ -64,8 +64,3 @@ This case analyzes a suspicious email that contained **no text body** and only a
 
 ---
 
-## ✅ Next Steps
-
-- Write detection rules (Sigma/YARA) based on pattern
-- Submit safe IOCs (like the phone number or IP) to OSINT platforms
-- Track similar campaigns and create a threat cluster
