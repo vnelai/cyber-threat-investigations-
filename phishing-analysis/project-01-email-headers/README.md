@@ -7,13 +7,13 @@ This case analyzes a suspicious email that contained **no text body** and only a
 ![Phishing Email Screenshot](screenshots/phishing-email-01-screenshot.png)
 ---
 
-## 🧰 Tools Used
+## 🔧 Tools & Sources Used
 
-- [MXToolbox](https://mxtoolbox.com/) — email header visualization
-- [AbuseIPDB](https://abuseipdb.com/) — IP reputation check
-- [IPinfo.io](https://ipinfo.io/) — IP geolocation and privacy info
-- [GreyNoise](https://viz.greynoise.io/) — checks if IP is scanning the internet
-- Terminal commands on macOS (with `grep`) — metadata & IOC extraction
+- **MXToolbox** — Email header visualization
+- **AbuseIPDB** — IP reputation check
+- **IPinfo.io** — IP geolocation and privacy data
+- **GreyNoise** — Checks for internet-wide scanning behavior
+- **macOS Terminal** — `grep` for metadata & IOC extraction
 
 ---
 
@@ -26,33 +26,38 @@ This case analyzes a suspicious email that contained **no text body** and only a
 ----
 2. **IOC Extraction**
    - IOC list: IP, email address, phone number, attachment
-   - Extraction commands saved in: [`playbook-commands.md`](./playbook-commands.md)
+   - Extraction method: Terminal `grep` commands  
+   - Commands stored in: [`playbook-commands.md`](./playbook-commands.md)
 
 3. **IOC Enrichment**
-   - IP address checked via AbuseIPDB, IPinfo, and GreyNoise
+   - IP address `57.103.77.23` enriched using:
+     - [AbuseIPDB](https://www.abuseipdb.com/check/57.103.77.23)
+     - [IPinfo.io](https://ipinfo.io/57.103.77.23)
+     - [GreyNoise](https://viz.greynoise.io/ip/57.103.77.23)
    - Results documented in: [`ioc-enrichment.md`](./ioc-enrichment.md)
 
 4. **Analysis Notes**
-   - Full investigative thinking and inferences: [`analysis-notes.md`](./analysis-notes.md)
+   -  Screenshot of phishing email: [`screenshots/phishing-email-01-screenshot.png`](./screenshots/phishing-email-01-screenshot.png)
+   - Full analysis and observations: [`analysis-notes.md`](./analysis-notes.md)
 
 ---
 
 ## 🔍 Key Findings
 
-- ✅ The sender email (`kumar391715vz1@icloud.com`) is **not spoofed** — it passed SPF, DKIM, and DMARC
-- 🛡️ IP address (`57.103.77.23`) is part of **Apple infrastructure**
-- 🧊 The sender likely used iCloud Mail to mask their identity behind Apple’s infra
-- 🧷 No links or text — only an **image attachment** with a **US-based phone number**
-- 🎯 Likely a **recon/bait tactic** to test if this email address is active before targeting further
+- ✅ **Sender not spoofed** — Passed SPF, DKIM, and DMARC
+- 🛡️ **IP address** (`57.103.77.23`) is Apple infrastructure (AS714)
+- 🧊 Likely abuse of iCloud Mail to mask attacker identity
+- 🧷 No clickable links — only an image with a **US-based phone number**
+- 🎯 Likely a **bait tactic** to confirm active email address before launching full campaign
 
 ---
 
 ## 📚 What I Learned
 
-- Spoofing isn't always used — **real email services like iCloud or Gmail** can be abused
-- MXToolbox is great for quick analysis, but manual header parsing is essential for deep dives
-- Safe IOC enrichment relies on public data — avoid uploading private samples
-- Even a **silent phishing email** can reveal attacker intent when analyzed closely
+- Spoofing isn't always needed — **real email services can be abused**
+- MXToolbox helps, but **manual parsing reveals deeper details**
+- IOC enrichment must be **safe** — never upload sensitive samples
+- Even a quiet phishing email can reveal **intent, sender infra, and techniques**
 
 ---
 
