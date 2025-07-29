@@ -81,3 +81,51 @@ This file documents the enrichment results for the IP address extracted from the
 Attackers are increasingly using real email providers (e.g., iCloud, Gmail) to evade filters and build trust. Messages sent from these providers often **pass all security checks**, making them harder to detect without content or behavioral analysis.
 
 ---
+
+---
+
+## 🔍 Enriched IOC: Phone Number `+1 (801) 614-7113`
+
+This number appeared inside the **phishing image attachment** and may be part of the attacker’s contact infrastructure. Below are the enrichment results from public OSINT tools and lookup services:
+
+### ✅ Summary of Results
+
+| Tool / Source         | Result |
+|-----------------------|--------|
+| **Google Search**     | ❌ No results or scam reports found |
+| **Robokiller Lookup** | ✅ Found  
+• Last activity: July 31, 2023  
+• Total calls: 10  
+• Reports: 0 |
+| **ScamNumbers.info**  | ❌ No match found |
+
+---
+
+### 🖼️ Screenshot
+
+Robokiller Lookup Results:  
+![Robokiller Lookup](./screenshots/robokiller-phone-lookup.png)
+
+---
+
+### 🧠 Interpretation
+
+- This phone number has **low visibility across public scam databases**.
+- Robokiller confirms **past call activity**, but no abuse reports — this suggests it may be part of a **newer campaign** or used in **low-volume phishing**.
+- No link to identity or carrier could be found via public tools.
+- Appearing inside an **image-only phishing email**, this number may serve to **confirm active recipients** or bait responses (e.g., tech support scam, fake invoice inquiry).
+
+---
+
+### 💡 Tactic Observed
+
+**Silent recon tactic:** Embed a phone number in an image to:
+- Evade automated scanners  
+- Track email opens (image loads)  
+- Solicit direct human contact via call/text
+
+---
+
+
+
+
