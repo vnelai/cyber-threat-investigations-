@@ -34,7 +34,10 @@ This case analyzes a suspicious email that contained **no text body** and only a
      - [AbuseIPDB](https://www.abuseipdb.com/check/57.103.77.23)
      - [IPinfo.io](https://ipinfo.io/57.103.77.23)
      - [GreyNoise](https://viz.greynoise.io/ip/57.103.77.23)
-   - Results documented in: [`ioc-enrichment.md`](./ioc-enrichment.md)
+     -    - Phone number `+1 (801) 614-7113` enriched using:
+     - [Robokiller Lookup](https://lookup.robokiller.com/)
+     - Google search & scam databases
+   - Results and screenshot in: [`ioc-enrichment.md`](./ioc-enrichment.md)
 
 4. **Analysis Notes**
    -  Screenshot of phishing email: [`screenshots/phishing-email-01-screenshot.png`](./screenshots/phishing-email-01-screenshot.png)
